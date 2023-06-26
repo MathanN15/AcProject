@@ -61,7 +61,7 @@ public String addAc(@RequestBody EntityAc a) {
 
 @PutMapping("updateAc")
 public String upAc(@RequestBody EntityAc e) {
-	return "Updated";
+	return "Updated Ac by git Hub";
 }
 
 
