@@ -57,8 +57,12 @@ public String addAc(@RequestBody EntityAc a) {
   return s.addAc(a);
 
 }
+// For GitHub Checking in the git WebSite
 
-
+@PutMapping("updateAc")
+public String upAc(@RequestBody EntityAc e) {
+	return "Updated";
+}
 
 
 @PostMapping("addAcAll")
